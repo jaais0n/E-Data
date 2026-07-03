@@ -50,7 +50,7 @@ export default function DataAppendingPage() {
               <p className="text-sm text-white/70 mb-8 leading-relaxed max-w-sm">
                 Ready to enhance your database with verified contact data? Click below to reach out to our sales team today.
               </p>
-              <Link href="/contact" className="w-full bg-gradient-to-r from-[#8dc63f] to-[#9cd34c] hover:brightness-110 text-[#131b2e] py-4 rounded-2xl font-label-mono text-label-mono hover:scale-[1.02] active:scale-[0.98] transition-all text-center shadow-lg font-bold">
+              <Link href="/contact" className="block cursor-pointer w-full bg-gradient-to-r from-[#8dc63f] to-[#9cd34c] hover:brightness-110 text-[#131b2e] py-4 rounded-2xl font-label-mono text-label-mono hover:scale-[1.02] active:scale-[0.98] transition-all text-center shadow-lg font-bold">
                 Contact Us
               </Link>
             </div>

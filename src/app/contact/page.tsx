@@ -148,18 +148,18 @@ export default function Contact() {
             {[
               {
                 i: "location_on",
-                t: "Head Office",
-                d: "E DATA GRID SOLUTIONS INC. 848 N. Rainbow blvd, Unit #3719 LAS VEGAS, NV 89107"
+                t: "Head office",
+                d: "E Data Grid Solutions Inc.\n848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107"
               },
               {
                 i: "corporate_fare",
-                t: "Corporate office",
-                d: "GILBERT DATA SOLUTIONS LLC #347, 5th Ave, New York, NY 10016, USA"
+                t: "Corporate offices",
+                d: "Gilbert Data Solutions. LLC.\n#347, 5th Ave, New York, NY 10016"
               },
               {
                 i: "mail",
                 t: "Contact Details",
-                d: "+1 212-372-7547\ninfo@gilbertdata.com\ngilbertdata.com"
+                d: "Phone: +1 212-372-7547\nEmail: info@gilbertdb.com"
               }
             ].map(c => (
               <div key={c.t} className="bg-surface-container-lowest p-8 border border-outline-variant/30 rounded-lg diffusion-shadow text-center flex flex-col items-center group hover:scale-[1.02] transition-transform duration-300">

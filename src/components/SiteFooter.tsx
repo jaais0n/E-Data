@@ -22,15 +22,31 @@ export function SiteFooter() {
             <ul className="space-y-4 text-on-surface-variant text-sm">
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
-                <span>Address: 100 Main Street, Suite 500, City, Country</span>
+                <div>
+                  <strong className="block text-on-surface mb-1">Head office:</strong>
+                  <span>E Data Grid Solutions Inc.<br/>848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107</span>
+                </div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-primary text-lg mt-0.5">mail</span>
-                <a href="mailto:info@gilbertdata.com" className="hover:text-primary transition-colors">info@gilbertdata.com</a>
+                <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
+                <div>
+                  <strong className="block text-on-surface mb-1">Corporate offices:</strong>
+                  <span>Gilbert Data Solutions. LLC.<br/>#347, 5th Ave, New York, NY 10016</span>
+                </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">phone</span>
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">+1 234 567 890</a>
+                <div>
+                  <strong className="inline text-on-surface">Phone: </strong>
+                  <a href="tel:+12123727547" className="hover:text-primary transition-colors">+1 212-372-7547</a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-primary text-lg mt-0.5">mail</span>
+                <div>
+                  <strong className="inline text-on-surface">Email: </strong>
+                  <a href="mailto:info@gilbertdb.com" className="hover:text-primary transition-colors">info@gilbertdb.com</a>
+                </div>
               </li>
             </ul>
           </div>
