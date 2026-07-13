@@ -91,7 +91,7 @@ export default function SicNaicsCodeAppendPage() {
             </div>
             
             <div className="mt-16">
-              <h3 className="font-display-lg text-2xl text-primary font-bold mb-4">Why Gilbert's SIC / NAICS Code Append Service?</h3>
+              <h3 className="font-display-lg text-2xl text-primary font-bold mb-4">Why E-Data Grid's SIC / NAICS Code Append Service?</h3>
               <p className="text-on-surface-variant mb-6 font-bold">Our SIC & NAICS Append Services:</p>
               <p className="text-on-surface-variant mb-6">E-Data Grid is a leading data-driven company, and we make certain to provide you with data which is fully verified and accurate. Having precise data makes your business more flexible.</p>
               
