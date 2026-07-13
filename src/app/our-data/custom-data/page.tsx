@@ -116,7 +116,7 @@ export default function CustomDataPage() {
               Custom list building is the process of generating highly targeted leads based on custom criteria such as geography, industry, job titles, technologies, and other specific parameters. It allows companies to run tailored marketing campaigns with high accuracy.
             </p>
             <p className="text-body-lg text-on-surface-variant leading-relaxed">
-              At GilbertData, we specialize in building custom databases that match your precise target audience parameters, ensuring maximum outreach conversion rates and campaign performance.
+              At E-Data Grid, we specialize in building custom databases that match your precise target audience parameters, ensuring maximum outreach conversion rates and campaign performance.
             </p>
           </div>
         </section>
@@ -316,11 +316,11 @@ export default function CustomDataPage() {
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">SCALE & PROSPER</span>
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                How Gilbert Data Help Your Business Grow With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Custom Email List?</span>
+                How E-Data Grid Help Your Business Grow With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Custom Email List?</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
-                  GilbertData provides the foundational intelligence for high-performance enterprise outreach. We compile targeted marketing contact fields, verifying all records through a triple-layer validation process before delivery.
+                  E-Data Grid provides the foundational intelligence for high-performance enterprise outreach. We compile targeted marketing contact fields, verifying all records through a triple-layer validation process before delivery.
                 </p>
                 <p>
                   Our customizable databases allow you to narrow down segments based on industry, revenue, and geography, so you target high-value clients who are actually aligned with your solutions.

@@ -7,7 +7,7 @@ export default function TermsOfService() {
         
         <div className="space-y-6 text-on-surface-variant leading-relaxed">
           <p>
-            Welcome to Gilbert Data. By accessing or using our website, datasets, or services, you agree to comply with and be bound by the following Terms of Service.
+            Welcome to E-Data Grid. By accessing or using our website, datasets, or services, you agree to comply with and be bound by the following Terms of Service.
           </p>
           
           <h2 className="font-display-lg text-2xl md:text-3xl font-bold text-primary pt-4" data-aos="fade-up">1. Use of Services</h2>
@@ -17,12 +17,12 @@ export default function TermsOfService() {
 
           <h2 className="font-display-lg text-2xl md:text-3xl font-bold text-primary pt-4" data-aos="fade-up">2. Intellectual Property</h2>
           <p>
-            All content, database structures, designs, and proprietary tools displayed on this website are the intellectual property of Gilbert Data and cannot be copied without prior written consent.
+            All content, database structures, designs, and proprietary tools displayed on this website are the intellectual property of E-Data Grid and cannot be copied without prior written consent.
           </p>
 
           <h2 className="font-display-lg text-2xl md:text-3xl font-bold text-primary pt-4" data-aos="fade-up">3. Limitation of Liability</h2>
           <p>
-            Gilbert Data shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use our contact lists.
+            E-Data Grid shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use our contact lists.
           </p>
         </div>
       </div>

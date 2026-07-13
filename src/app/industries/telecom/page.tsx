@@ -174,9 +174,9 @@ export default function TelecommunicationIndustry() {
               </div>
 
               <div>
-                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">What Makes Gilbert Data Divergent From Others?</h3>
+                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">What Makes E-Data Grid Divergent From Others?</h3>
                 <p>
-                  Gilbert Data offers the most accurate and up-to-date telecommunication industry mailing list to help you reach out to your targeted audience successfully. We have a highly experienced team of data experts who gather the contact details from authentic sources. We verify and update the database frequently to deliver the most reliable telecommunication industry mailing list. We help you customize the telecommunication industry email list based on your specific business requirements and launch targeted B2B marketing campaigns successfully.
+                  E-Data Grid offers the most accurate and up-to-date telecommunication industry mailing list to help you reach out to your targeted audience successfully. We have a highly experienced team of data experts who gather the contact details from authentic sources. We verify and update the database frequently to deliver the most reliable telecommunication industry mailing list. We help you customize the telecommunication industry email list based on your specific business requirements and launch targeted B2B marketing campaigns successfully.
                 </p>
               </div>
             </div>

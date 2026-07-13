@@ -65,7 +65,7 @@ export default function ReverseEmailAppendPage() {
               {[
                 "To run the business successfully and effectively, you might require adding the missing piece of information. To get your potential customers by your side, it is mandatory that you update the information with the contact details. Otherwise, in a world where data is the core of every business, you are likely to lose your potential customers.",
                 "If you are having a missing piece of information, or you just have your target customers' email address, do not worry; our B2B data appending services will help you find the missing piece.",
-                "At Gilbert Data, with a massive business directory, we help you reverse append the missing piece of information and build a custom list to reach your target customers."
+                "At E-Data Grid, with a massive business directory, we help you reverse append the missing piece of information and build a custom list to reach your target customers."
               ].map((item, i) => (
                 <div key={i} className="flex gap-3 items-start">
                   <span className="material-symbols-outlined text-[#8dc63f] text-xl mt-1">article</span>

@@ -98,7 +98,7 @@ export default function HealthcareData() {
                 B2B Healthcare Database &amp; <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">Mailing Lists</span>
               </h2>
               <p className="text-on-surface-variant text-body-lg leading-relaxed">
-                The healthcare industry is vast and expanding rapidly. Gilbert Data's healthcare mailing lists enables marketers to reach out to healthcare professionals, hospitals, clinics, and medical executives globally. Our data helps you to plan and execute multi-channel marketing campaigns effectively.
+                The healthcare industry is vast and expanding rapidly. E-Data Grid's healthcare mailing lists enables marketers to reach out to healthcare professionals, hospitals, clinics, and medical executives globally. Our data helps you to plan and execute multi-channel marketing campaigns effectively.
               </p>
               <ul className="space-y-3 mt-6">
                 {['Customized Mailing Lists', 'Healthcare Exec Lists', 'Healthcare Professionals', 'Targeted Marketing Campaigns'].map(item => (

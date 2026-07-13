@@ -80,19 +80,19 @@ const techCategories = [
 
 const faqs = [
   {
-    q: "How is Gilbert Data different from other data/list providers?",
-    a: "Gilbertdata has been a leader in specialised data products for 14 years. We offer comprehensive data management, cleaning, multi-channel verification, and other services. We fix data and provide niche knowledge to boost productivity. Custom data fields can boost your company’s bottom line, so we went the extra mile."
+    q: "How is E-Data Grid different from other data/list providers?",
+    a: "E-Data Grid has been a leader in specialised data products for 14 years. We offer comprehensive data management, cleaning, multi-channel verification, and other services. We fix data and provide niche knowledge to boost productivity. Custom data fields can boost your company’s bottom line, so we went the extra mile."
   },
   {
-    q: "How does Gilbert Data collect data? What are the sources?",
+    q: "How does E-Data Grid collect data? What are the sources?",
     a: "We obtain authentic information from offline and online sources such worldwide gatherings, face-to-face meetings, public directories and records, and governmental organisations. Our continually updated master database is selected with this information in mind, giving you access to highly detailed, validated data across several channels."
   },
   {
-    q: "How reliable is Gilbert Data data?",
-    a: "80% of our business comes from returning customers, and they all promote us and give referrals. Both the product and the client are important to Gilbertdata. If you’re expanding, we can offer reliable advice."
+    q: "How reliable is E-Data Grid data?",
+    a: "80% of our business comes from returning customers, and they all promote us and give referrals. Both the product and the client are important to E-Data Grid. If you’re expanding, we can offer reliable advice."
   },
   {
-    q: "How does Gilbert Data validate data?",
+    q: "How does E-Data Grid validate data?",
     a: "Everything about a contact is checked, double checked, and cleaned before it even makes it into our master data warehouse of 56+ million contacts. De-duplication, syntax error checking, blacklist screening, bounce and compliance check, spam and garbage removal, and data delivery validation are all part of our cleansing and validation process."
   },
   {
@@ -133,7 +133,7 @@ export default function TechnologyInstalls() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] italic pr-1">List</span>
               </h1>
               <p className="text-body-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Gilbert Data technology email lists will help marketers to connect with technology professionals, technology users, and decision makers from the IT industry. Reach out to top technology executives globally using our comprehensive and updated technology email list.
+                E-Data Grid technology email lists will help marketers to connect with technology professionals, technology users, and decision makers from the IT industry. Reach out to top technology executives globally using our comprehensive and updated technology email list.
               </p>
             </div>
 
@@ -159,7 +159,7 @@ export default function TechnologyInstalls() {
         <section className="bg-background py-20 border-b border-outline-variant/30">
           <div className="max-w-[1000px] mx-auto px-5 md:px-10 text-center space-y-6">
             <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed">
-              Are you an IT service provider, software supplier, or software marketer looking for ways to expand your market footprint globally? GilbertData Technology Users List empowers you with an extensive database of IT decision-makers, tech professionals, and businesses that use specific hardware, software, and cloud applications.
+              Are you an IT service provider, software supplier, or software marketer looking for ways to expand your market footprint globally? E-Data Grid Technology Users List empowers you with an extensive database of IT decision-makers, tech professionals, and businesses that use specific hardware, software, and cloud applications.
             </p>
             <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed">
               Whether you are targeting users of CRM, ERP, Cloud platforms, DBMS, or Networking software, our meticulously compiled lists ensure your marketing messages reach the right inbox. With a deliverability rate of over 95%, we guarantee that your campaigns achieve maximum ROI and conversion rates.
@@ -208,7 +208,7 @@ export default function TechnologyInstalls() {
           <div className="max-w-[1280px] mx-auto px-5 md:px-10 text-center mb-16">
             <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest mb-4 block">CATEGORIES</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black mb-6" data-aos="fade-up">
-              Key Technology Users List From <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">GilbertData</span>
+              Key Technology Users List From <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">E-Data Grid</span>
             </h2>
             <p className="text-on-surface-variant max-w-3xl mx-auto text-lg leading-relaxed">
               Our technology lists are segmented into various categories to ensure you reach the exact right professionals utilizing the software and hardware products relevant to your services.

@@ -296,11 +296,11 @@ export default function B2bMarketingData() {
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">ROI AMPLIFIED</span>
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                How Gilbert Data Help You Grow Your Business With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">B2B Email List?</span>
+                How E-Data Grid Help You Grow Your Business With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">B2B Email List?</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
-                  GilbertData provides the foundational intelligence for high-performance enterprise outreach. We compile targeted marketing contact fields, verifying all records through a triple-layer validation process before delivery.
+                  E-Data Grid provides the foundational intelligence for high-performance enterprise outreach. We compile targeted marketing contact fields, verifying all records through a triple-layer validation process before delivery.
                 </p>
                 <p>
                   Our customizable databases allow you to narrow down segments based on industry, revenue, and geography, so you target high-value clients who are actually aligned with your solutions.
