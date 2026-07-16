@@ -6,7 +6,7 @@ import { ClientMarquee } from "@/components/ClientMarquee";
 const faqs = [
   {
     q: "How is E-Data Grid different from other data list providers?",
-    a: "E-Data Grid has been a pioneer in specialized data products for 14 years. We offer comprehensive data management, cleansing, multi-channel verification, and other services. We deliver and provide niche knowledge to boost productivity. Customized fields can boost your company's bottom line, as we work the extra mile."
+    a: "Gilbert data has been a pioneer in specialized data products for 14 years. We offer comprehensive data management, cleansing, multi-channel verification, and other services. We deliver and provide niche knowledge to boost productivity. Customized fields can boost your company's bottom line, as we work the extra mile."
   },
   {
     q: "How does E-Data Grid collect data? What are the sources?",
