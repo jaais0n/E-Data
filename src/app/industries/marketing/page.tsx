@@ -235,7 +235,7 @@ export default function MarketingIndustry() {
                 The advertising and marketing industry is highly competitive, and to stay ahead, you need a targeted approach. Our meticulously compiled Advertising and Marketing Industry Email List provides you with direct access to CMOs, Marketing Directors, PR Specialists, and Advertising Executives globally. By utilizing our highly responsive data, you can build meaningful relationships with key decision-makers who have the authority to purchase your products or services.
               </p>
               <p>
-                At E-Data Grid, we understand the specific needs of marketers. Our database is verified and continuously updated to ensure that your message reaches the right inbox at the right time. Whether you are promoting a marketing software tool, advertising services, or industry events, our lists are tailored to match your specific campaign requirements.
+                At Gilbert Data, we understand the specific needs of marketers. Our database is verified and continuously updated to ensure that your message reaches the right inbox at the right time. Whether you are promoting a marketing software tool, advertising services, or industry events, our lists are tailored to match your specific campaign requirements.
               </p>
               <p>
                 Expand your business reach and boost your sales pipeline with our high-quality, verified data. Our targeted lists will help you maximize your return on investment and achieve your business objectives with ease.

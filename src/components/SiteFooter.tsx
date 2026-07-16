@@ -31,7 +31,7 @@ export function SiteFooter() {
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
                 <div>
                   <strong className="block text-on-surface mb-1">Corporate offices:</strong>
-                  <span>E-Data Grid Solutions. LLC.<br/>#347, 5th Ave, New York, NY 10016</span>
+                  <span>Gilbert Data Solutions. LLC.<br/>#347, 5th Ave, New York, NY 10016</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -45,7 +45,7 @@ export function SiteFooter() {
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">mail</span>
                 <div>
                   <strong className="inline text-on-surface">Email: </strong>
-                  <a href="mailto:info@edatagrid.com" className="hover:text-primary transition-colors">info@edatagrid.com</a>
+                  <a href="mailto:info@gilbertdb.com" className="hover:text-primary transition-colors">info@gilbertdb.com</a>
                 </div>
               </li>
             </ul>
@@ -83,12 +83,12 @@ export function SiteFooter() {
             <div className="flex gap-4">
               {[
                 { platform: "facebook", href: "https://www.facebook.com/people/Gilbert-Data-LLC/100063899331148/", icon: <Facebook className="w-5 h-5" /> },
-                { platform: "twitter", href: "https://x.com/edatagrid", icon: (
+                { platform: "twitter", href: "https://x.com/gilbertdata", icon: (
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                   </svg>
                 ) },
-                { platform: "linkedin", href: "https://www.linkedin.com/company/edatagrid/", icon: <Linkedin className="w-5 h-5" /> }
+                { platform: "linkedin", href: "https://www.linkedin.com/company/gilbertdata/", icon: <Linkedin className="w-5 h-5" /> }
               ].map((item) => (
                 <a 
                   key={item.platform} 
@@ -105,7 +105,7 @@ export function SiteFooter() {
         </div>
 
         <div className="pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-on-surface-variant">
-          <p>© 2026 E-Data Grid. All Rights Reserved.</p>
+          <p>© 2026 GilbertData. All Rights Reserved.</p>
           <div className="flex gap-6">
             <Link href="/terms-of-service" className="hover:text-primary">Terms of Service</Link>
             <Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link>

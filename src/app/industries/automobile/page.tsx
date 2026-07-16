@@ -113,7 +113,7 @@ export default function AutomobileIndustry() {
             <div className="text-lg md:text-xl text-on-surface-variant leading-relaxed space-y-4">
               <p>Connect with auto dealers and automotive business professionals across the globe who are most likely to invest in your business products and services.</p>
               <p>Get access to the database of auto dealers globally to launch successful marketing campaigns and reach your targeted audience effectively.</p>
-              <p>E-Data Grid offers highly responsive and verified B2B email lists to help you launch successful marketing campaigns and connect with your targeted audience in the auto industry.</p>
+              <p>Gilbert Data offers highly responsive and verified B2B email lists to help you launch successful marketing campaigns and connect with your targeted audience in the auto industry.</p>
             </div>
           </div>
         </section>
@@ -237,19 +237,19 @@ export default function AutomobileIndustry() {
           <div className="max-w-[1000px] mx-auto px-5 md:px-10">
             <div className="space-y-8 text-on-surface-variant leading-relaxed text-center">
               <div>
-                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">E-Data Grid Is Your Guide To Find The Right Customers In Automobile Industry</h3>
+                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">Gilbert Data Is Your Guide To Find The Right Customers In Automobile Industry</h3>
                 <p>
-                  The automobile industry is growing at a rapid pace and is highly competitive. Therefore, to sustain in the automobile industry, you need a highly targeted database to reach your potential audience and generate high quality leads. The automobile industry contact lists from E-Data Grid helps you successfully reach targeted business professionals globally. Get access to detailed contact lists of top-level decision makers, executives, and professionals to build strong connections and maximize your ROI.
+                  The automobile industry is growing at a rapid pace and is highly competitive. Therefore, to sustain in the automobile industry, you need a highly targeted database to reach your potential audience and generate high quality leads. The automobile industry contact lists from Gilbert Data helps you successfully reach targeted business professionals globally. Get access to detailed contact lists of top-level decision makers, executives, and professionals to build strong connections and maximize your ROI.
                 </p>
               </div>
 
               <div>
                 <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">We Link You With Thousands Of Your Most Up-To-Date Customers</h3>
                 <p className="mb-4">
-                  At E-Data Grid, we gather the contact details from authentic sources such as directories, trade shows, business magazines, surveys, seminars, and more. Our database is frequently updated to ensure that we deliver the most accurate and up-to-date automobile industry mailing list to help you launch targeted B2B marketing campaigns successfully.
+                  At Gilbert Data, we gather the contact details from authentic sources such as directories, trade shows, business magazines, surveys, seminars, and more. Our database is frequently updated to ensure that we deliver the most accurate and up-to-date automobile industry mailing list to help you launch targeted B2B marketing campaigns successfully.
                 </p>
                 <p>
-                  When it comes to building authentic business connections, quality lists of automobile industry executives are of prime importance. At E-Data Grid we provide top-notch data that yields maximum revenue by reaching your target audience efficiently. And you can easily boost the conversion rate of your B2B campaigns to get higher ROI. Build stronger connections globally that boost revenue.
+                  When it comes to building authentic business connections, quality lists of automobile industry executives are of prime importance. At Gilbert Data we provide top-notch data that yields maximum revenue by reaching your target audience efficiently. And you can easily boost the conversion rate of your B2B campaigns to get higher ROI. Build stronger connections globally that boost revenue.
                 </p>
               </div>
             </div>

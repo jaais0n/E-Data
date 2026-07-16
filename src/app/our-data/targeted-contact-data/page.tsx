@@ -192,7 +192,7 @@ export default function TargetedContactData() {
               <div className="text-on-surface-variant text-body-lg space-y-4 leading-relaxed">
                 <p>Among all the marketing channels email lists have proven to give best results. You can reach out to your targeted audience to engage them. If you want to increase your ROI and improve business relations then choosing our targeted contact list is the best option.</p>
                 <p>Our Targeted Business Email List helps you to directly contact the key decision makers and C-level executives. We provide highly responsive and updated data that helps you to run successful multi-channel marketing campaigns.</p>
-                <p>With E-Data Grid's targeted email list, you can seamlessly connect with your potential clients globally and expand your business reach. Our data is gathered from authentic sources and verified regularly to ensure maximum accuracy.</p>
+                <p>With Gilbert Data's targeted email list, you can seamlessly connect with your potential clients globally and expand your business reach. Our data is gathered from authentic sources and verified regularly to ensure maximum accuracy.</p>
               </div>
             </div>
             <div className="lg:col-span-5 flex justify-center">

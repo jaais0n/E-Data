@@ -64,7 +64,7 @@ export default function PhoneAppendPage() {
               <div className="space-y-4 pt-4">
               {[
                 "Connecting via phone call is the most traditional way of doing marketing. By doing so, you target your audience efficiently.",
-                "E-Data Grid provides phone appending services, where we match our database with your target potential customer's data.",
+                "Gilbert Data provides phone appending services, where we match our database with your target potential customer's data.",
                 "Once we verify all the records of your potential customer, we will append phone number and you will easily reach your potential audience. You get all the details such as first name, last name, phone number, etc.",
                 "We facilitate you with B2B phone appending services where we match your prospect's records with our vast B2B database. Our phone appending service will provide you numbers which are accurate and updated. In case you miss out on any lead, phone append service will surely bring back your leads."
               ].map((item, i) => (
@@ -152,11 +152,11 @@ export default function PhoneAppendPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <div className="lg:col-span-7 space-y-6">
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                Improve Your Business Leads Via E-Data Grid <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Phone Append Service</span>
+                Improve Your Business Leads Via Gilbert Data <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Phone Append Service</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
-                  Connecting with your potential audience helps you in getting more profit. If you get all the exact details of your target audiences, then you will get a perfect audience base for your organization. For you to execute your campaigns successfully, E-Data Grid provides you a Phone Append Service. We append missing or updating business phone numbers into your business directory and helps you in targeting audience through telemarketing, SMS marketing.
+                  Connecting with your potential audience helps you in getting more profit. If you get all the exact details of your target audiences, then you will get a perfect audience base for your organization. For you to execute your campaigns successfully, Gilbert Data provides you a Phone Append Service. We append missing or updating business phone numbers into your business directory and helps you in targeting audience through telemarketing, SMS marketing.
                 </p>
               </div>
             </div>

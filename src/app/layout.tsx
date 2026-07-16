@@ -14,7 +14,7 @@ const hanken = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "E-Data Grid | Precision B2B Intelligence",
+  title: "GilbertData | Precision B2B Intelligence",
   description: "Precision B2B intelligence, verified contacts, and data enrichment for global enterprise outreach.",
 };
 

@@ -83,7 +83,7 @@ export default function TravelIndustry() {
             <h2 className="font-display-lg text-3xl md:text-5xl font-black mb-8 text-primary" data-aos="fade-up">Travel and Tourism Industry <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Email List</span></h2>
             <div className="text-lg md:text-xl text-on-surface-variant leading-relaxed space-y-4">
               <p>Build strong relationships with key decision-makers, top-level professionals, and other experts in the travel and tourism industry.</p>
-              <p>E-Data Grid offers an excellent opportunity to connect with travel and tourism industry experts and decision-makers from different parts of the world.</p>
+              <p>Gilbert Data offers an excellent opportunity to connect with travel and tourism industry experts and decision-makers from different parts of the world.</p>
               <p>Access accurate and up-to-date travel and tourism industry mailing lists to fuel your B2B marketing campaigns and boost your sales and ROI.</p>
               <p>Reach out to the highly responsive prospects in the travel and tourism industry and build long-lasting business relationships.</p>
             </div>
@@ -182,14 +182,14 @@ export default function TravelIndustry() {
                   The B2B contact database is essentially the core element of any marketing or sales campaign across the B2B sector. We provide precise, verified, and complete data of travel and tourism industry professionals to make your B2B marketing campaigns successful. So if you are looking to promote your products and services to top-level decision makers in the travel and tourism industry, you need a highly accurate and verified B2B mailing list to reach out to your prospects.
                 </p>
                 <p>
-                  E-Data Grid delivers highly accurate and customized mailing lists for B2B marketing campaigns. We ensure the highest level of deliverability of our marketing records to target potential prospects. With our highly effective B2B contact lists you can easily build strong business relations and generate high quality leads that maximize your ROI.
+                  Gilbert Data delivers highly accurate and customized mailing lists for B2B marketing campaigns. We ensure the highest level of deliverability of our marketing records to target potential prospects. With our highly effective B2B contact lists you can easily build strong business relations and generate high quality leads that maximize your ROI.
                 </p>
               </div>
 
               <div className="space-y-6">
-                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">Why Should You Go For E-Data Grid's Travel And Tourism Industry Email Lists?</h3>
+                <h3 className="font-display-lg text-2xl md:text-3xl font-bold text-primary mb-6">Why Should You Go For Gilbert Data's Travel And Tourism Industry Email Lists?</h3>
                 <p>
-                  At E-Data Grid, we gather the B2B marketing data from a variety of targeted and trusted sources. Thus, our lists are highly accurate and verified to provide you the best returns on your marketing campaigns. We keep on regularly updating our database to help you build business relations across the global travel and tourism sector. By delivering customized B2B mailing lists we help you boost your overall business revenue.
+                  At Gilbert Data, we gather the B2B marketing data from a variety of targeted and trusted sources. Thus, our lists are highly accurate and verified to provide you the best returns on your marketing campaigns. We keep on regularly updating our database to help you build business relations across the global travel and tourism sector. By delivering customized B2B mailing lists we help you boost your overall business revenue.
                 </p>
               </div>
             </div>

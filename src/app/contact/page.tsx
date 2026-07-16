@@ -5,19 +5,19 @@ import { ClientMarquee } from "@/components/ClientMarquee";
 
 const faqs = [
   {
-    q: "How is E-Data Grid different from other data list providers?",
+    q: "How is Gilbert Data different from other data list providers?",
     a: "Gilbert data has been a pioneer in specialized data products for 14 years. We offer comprehensive data management, cleansing, multi-channel verification, and other services. We deliver and provide niche knowledge to boost productivity. Customized fields can boost your company's bottom line, as we work the extra mile."
   },
   {
-    q: "How does E-Data Grid collect data? What are the sources?",
+    q: "How does Gilbert Data collect data? What are the sources?",
     a: "Our data is compiled from trusted business registries, public archives, annual reports, business directories, and multi-channel verification networks to ensure absolute authenticity."
   },
   {
-    q: "How reliable is E-Data Grid data?",
+    q: "How reliable is Gilbert Data data?",
     a: "Our datasets are updated and verified every 90 days. We maintain an industry-leading delivery rate and accuracy score across all compiled files."
   },
   {
-    q: "How does E-Data Grid validate data?",
+    q: "How does Gilbert Data validate data?",
     a: "We use a dual-verification process utilizing advanced automated matching algorithms paired with manual human intelligence verification."
   },
   {
@@ -154,12 +154,12 @@ export default function Contact() {
               {
                 i: "corporate_fare",
                 t: "Corporate offices",
-                d: "E-Data Grid Solutions. LLC.\n#347, 5th Ave, New York, NY 10016"
+                d: "Gilbert Data Solutions. LLC.\n#347, 5th Ave, New York, NY 10016"
               },
               {
                 i: "mail",
                 t: "Contact Details",
-                d: "Phone: +1 212-372-7547\nEmail: info@edatagrid.com"
+                d: "Phone: +1 212-372-7547\nEmail: info@gilbertdb.com"
               }
             ].map(c => (
               <div key={c.t} className="bg-surface-container-lowest p-8 border border-outline-variant/30 rounded-lg diffusion-shadow text-center flex flex-col items-center group hover:scale-[1.02] transition-transform duration-300">

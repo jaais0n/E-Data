@@ -44,7 +44,7 @@ export default function About() {
             {/* Right Text Side */}
             <div className="mt-12 lg:mt-0 lg:pl-10">
               <span className="font-label-mono text-label-mono text-primary tracking-[0.2em] uppercase mb-4 block font-bold">ABOUT US</span>
-              <h1 className="font-display-lg text-4xl lg:text-5xl mb-6 font-bold text-on-surface">Why <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">E-Data Grid</span> !</h1>
+              <h1 className="font-display-lg text-4xl lg:text-5xl mb-6 font-bold text-on-surface">Why <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Gilbert Data</span> !</h1>
               <p className="text-on-surface-variant text-body-lg leading-relaxed mb-10">
                 Since 2008 Gilbert data is one of the pioneer and believed data drive data driven marketing services that provides marketing solutions comprising of business list, technology user list, healthcare list and also appending services.
               </p>

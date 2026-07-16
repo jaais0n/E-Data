@@ -58,7 +58,7 @@ export default function SicNaicsCodeAppendPage() {
           <div className="bg-surface-container-lowest p-8 md:p-12 border border-outline-variant/30 rounded-3xl shadow-lg" data-aos="fade-up">
             <h3 className="font-display-lg text-2xl text-primary font-bold mb-6">Customize Your Education Industry Email List By:</h3>
             <p className="text-on-surface-variant text-body-lg mb-8 leading-relaxed">
-              E-Data Grid has a well segregated, and custom-built education sector marketing lists for your data-driven marketing campaigns. With our list, marketers can reach out to multiple profiles who are well established and interested in various business sectors like higher education institutions, elementary schools, education support services, and various others.
+              Gilbert Data has a well segregated, and custom-built education sector marketing lists for your data-driven marketing campaigns. With our list, marketers can reach out to multiple profiles who are well established and interested in various business sectors like higher education institutions, elementary schools, education support services, and various others.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -93,7 +93,7 @@ export default function SicNaicsCodeAppendPage() {
             <div className="mt-16">
               <h3 className="font-display-lg text-2xl text-primary font-bold mb-4">Why Gilbert's SIC / NAICS Code Append Service?</h3>
               <p className="text-on-surface-variant mb-6 font-bold">Our SIC & NAICS Append Services:</p>
-              <p className="text-on-surface-variant mb-6">E-Data Grid is a leading data-driven company, and we make certain to provide you with data which is fully verified and accurate. Having precise data makes your business more flexible.</p>
+              <p className="text-on-surface-variant mb-6">Gilbert Data is a leading data-driven company, and we make certain to provide you with data which is fully verified and accurate. Having precise data makes your business more flexible.</p>
               
               <p className="text-on-surface-variant mb-6 font-bold">What Percentage Do We Append?</p>
               <p className="text-on-surface-variant mb-12">We append more than 70 to 80% of your requested list and provide you the best result. So avail our email lists to reach your targeted audiences now.</p>
@@ -105,7 +105,7 @@ export default function SicNaicsCodeAppendPage() {
                     {[
                       "We provide high deliverability and campaign accuracy",
                       "Affordable pricing",
-                      "E-Data Grid provides data which is CCPA and GDPR Compliant",
+                      "Gilbert Data provides data which is CCPA and GDPR Compliant",
                       "100% CAN SPAM complaint",
                       "Increase your sales and conversion rates with our data directory",
                       "100% verified and updated",
@@ -172,7 +172,7 @@ export default function SicNaicsCodeAppendPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <div className="lg:col-span-7 space-y-6">
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                How E-Data Grid Help Your Business Grow With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">SIC / NAICS Code Appending Services?</span>
+                How Gilbert Data Help Your Business Grow With <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">SIC / NAICS Code Appending Services?</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
