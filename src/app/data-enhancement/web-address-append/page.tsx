@@ -66,7 +66,7 @@ export default function WebAddressAppendPage() {
             <div className="space-y-6">
               <div className="space-y-4 pt-4">
               {[
-                "Gilbert Data offer Web Address Append services, which help their clients in updating their existing B2B records. You will get the web address matching to your data, as well as you will get the opportunity to target wide audiences through different marketing platforms."
+                "E-Data offer Web Address Append services, which help their clients in updating their existing B2B records. You will get the web address matching to your data, as well as you will get the opportunity to target wide audiences through different marketing platforms."
               ].map((item, i) => (
                 <div key={i} className="flex gap-3 items-start">
                   <span className="material-symbols-outlined text-[#8dc63f] text-xl mt-1">article</span>
@@ -79,12 +79,12 @@ export default function WebAddressAppendPage() {
               <h4 className="font-display-lg text-xl mb-4 text-primary font-bold">URL / Web Address Append (%)</h4>
               <div className="grid grid-cols-1 gap-3" data-aos="fade-up" data-aos-delay="100">
                  {[
-                   "Gilbert Data's Web Address Append service has successfully appended more than 80 to 90% in almost all the projects undertaken by them.",
+                   "E-Data's Web Address Append service has successfully appended more than 80 to 90% in almost all the projects undertaken by them.",
                    "In some B2B cases database append percentage also increases depending on the quality of data provided by their clients and the targeted demographics.",
-                   "Gilbert Data's B2B Web Address Append services provide valid and authentic web addresses matching to clients existing records, with minimum bounce back rates.",
+                   "E-Data's B2B Web Address Append services provide valid and authentic web addresses matching to clients existing records, with minimum bounce back rates.",
                    "In B2B web address append projects, they check and verify all the matched records manually to ensure they are providing quality and updated database, their experts have high proficiency in B2B database appending.",
                    "In manually verification process they utilize all their available resources to check whether the matching URL address is valid and currently running.",
-                   "In addition to Web Address Append Service, Gilbert Data also provides data appending services like Phone Append, Reverse Phone Append, Data Verification, Email Append, Reverse Email Append and many more."
+                   "In addition to Web Address Append Service, E-Data also provides data appending services like Phone Append, Reverse Phone Append, Data Verification, Email Append, Reverse Email Append and many more."
                  ].map((item, i) => (
                    <div key={i} className="flex gap-2 items-start">
                      <span className="material-symbols-outlined text-[#8dc63f] text-sm mt-0.5">article</span>
@@ -171,17 +171,17 @@ export default function WebAddressAppendPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
             <div className="lg:col-span-7 space-y-6">
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                How Web Address Append Service From Gilbert Data <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Boost Your Business?</span>
+                How Web Address Append Service From E-Data <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Boost Your Business?</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
-                  Match the domain details of the companies with the data you have. Obtain your target audiences site to acquire valuable details of their company profile, details of their products and services and their existing clientele to pitch them successfully with Gilbert Data's URL Append services.
+                  Match the domain details of the companies with the data you have. Obtain your target audiences site to acquire valuable details of their company profile, details of their products and services and their existing clientele to pitch them successfully with E-Data's URL Append services.
                 </p>
                 <p>
-                  Remove the obsolete web addresses from your database, appending correct website address. Build an authentic and responsive database of your target prospects by adding Web Address of your target audience, with Gilbert Data's URL Append Service.
+                  Remove the obsolete web addresses from your database, appending correct website address. Build an authentic and responsive database of your target prospects by adding Web Address of your target audience, with E-Data's URL Append Service.
                 </p>
                 <p>
-                  Gilbert Data is best known for providing Web Address Append Service to their clients. It connects you with your B2B customers. They can help you to append web address of your target prospects manually. The match rates and percentage of URL appended data totally depend upon the number of matching records in our database.
+                  E-Data is best known for providing Web Address Append Service to their clients. It connects you with your B2B customers. They can help you to append web address of your target prospects manually. The match rates and percentage of URL appended data totally depend upon the number of matching records in our database.
                 </p>
                 <p>
                   The percentage of Web Appended B2B data records ranges from 70 to 80 percent.

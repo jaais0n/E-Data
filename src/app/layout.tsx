@@ -10,11 +10,11 @@ const hanken = Hanken_Grotesk({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
-  variable: "--font-sans",
+  variable: "--font-hanken",
 });
 
 export const metadata: Metadata = {
-  title: "GilbertData | Precision B2B Intelligence",
+  title: "E-Data | Precision B2B Intelligence",
   description: "Precision B2B intelligence, verified contacts, and data enrichment for global enterprise outreach.",
 };
 
@@ -30,7 +30,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block"
         />
       </head>
       <body className="font-sans bg-[#f7f9fb] text-[#191c1e] antialiased">

@@ -195,11 +195,11 @@ export default function DataAppendingPage() {
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">SCALE & PROSPER</span>
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                How Data Appending Service From Gilbert Data Boost <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Your Business?</span>
+                How Data Appending Service From E-Data Boost <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Your Business?</span>
               </h2>
               <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                 <p>
-                  Gilbert Data's data appending service is critical in keeping your database up-to-date and accurate. It is an effective process to add missing information like email addresses, phone numbers, and physical addresses to your existing customer data file.
+                  E-Data's data appending service is critical in keeping your database up-to-date and accurate. It is an effective process to add missing information like email addresses, phone numbers, and physical addresses to your existing customer data file.
                 </p>
                 <p>
                   Our data append service helps you identify key data points, verify them against our master database of millions of records, and instantly fill the gaps in your database so you can seamlessly reach out to the right contacts via multiple marketing channels.

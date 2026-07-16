@@ -146,11 +146,11 @@ export default function FaxNumberAppendPage() {
             <div className="lg:col-span-7 space-y-8">
               <div>
                 <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
-                  Improve Your Business Leads Via Gilbert Data <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Phone Append Service</span>
+                  Improve Your Business Leads Via E-Data <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Phone Append Service</span>
                 </h2>
                 <div className="text-on-surface-variant text-body-lg space-y-6 leading-relaxed">
                   <p>
-                    Connecting with your potential audience helps you in getting more profit. If you get all the exact details of your target audiences, then you will get a perfect audience base for your organization. For you to execute your campaigns successfully, Gilbert Data provides you a Phone Append Service. We append missing or updating business phone numbers into your business directory and helps you in targeting audience through telemarketing, SMS marketing.
+                    Connecting with your potential audience helps you in getting more profit. If you get all the exact details of your target audiences, then you will get a perfect audience base for your organization. For you to execute your campaigns successfully, E-Data provides you a Phone Append Service. We append missing or updating business phone numbers into your business directory and helps you in targeting audience through telemarketing, SMS marketing.
                   </p>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function FaxNumberAppendPage() {
               <div className="pt-8 border-t border-outline-variant/30">
                 <h3 className="font-display-lg text-2xl md:text-3xl font-bold mb-4">Fax Number Append Percentage (%)</h3>
                 <p className="text-on-surface-variant text-body-md leading-relaxed">
-                  Match rates for this service can vary depending upon the quality of data within clients file. The best results occur when an initial file is verified and clean. However, the Gilbert Data appending business fax match rate typically is 60-80% for business records and 40-50% for B2C records.
+                  Match rates for this service can vary depending upon the quality of data within clients file. The best results occur when an initial file is verified and clean. However, the E-Data appending business fax match rate typically is 60-80% for business records and 40-50% for B2C records.
                 </p>
               </div>
             </div>

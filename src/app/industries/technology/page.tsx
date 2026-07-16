@@ -80,8 +80,8 @@ export default function TechnologyIndustry() {
           <div className="max-w-[1000px] mx-auto px-5 md:px-10 text-center space-y-6">
             <h2 className="font-display-lg text-3xl md:text-5xl font-black mb-8 text-primary" data-aos="fade-up">Technology Users <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Email List</span></h2>
             <div className="text-lg md:text-xl text-on-surface-variant leading-relaxed space-y-4">
-              <p>Gilbert Data technology email lists will help marketers to connect with technology professionals, technology users, and decision makers from the IT industry. Reach out to top technology executives globally using our comprehensive and updated technology email list.</p>
-              <p>Are you an IT service provider, software supplier, or software marketer looking for ways to expand your market footprint globally? GilbertData Technology Users List empowers you with an extensive database of IT decision-makers, tech professionals, and businesses that use specific hardware, software, and cloud applications.</p>
+              <p>E-Data technology email lists will help marketers to connect with technology professionals, technology users, and decision makers from the IT industry. Reach out to top technology executives globally using our comprehensive and updated technology email list.</p>
+              <p>Are you an IT service provider, software supplier, or software marketer looking for ways to expand your market footprint globally? E-Data Technology Users List empowers you with an extensive database of IT decision-makers, tech professionals, and businesses that use specific hardware, software, and cloud applications.</p>
               <p>Whether you are targeting users of CRM, ERP, Cloud platforms, DBMS, or Networking software, our meticulously compiled lists ensure your marketing messages reach the right inbox. With a deliverability rate of over 95%, we guarantee that your campaigns achieve maximum ROI and conversion rates.</p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function TechnologyIndustry() {
                 <strong>High Deliverability:</strong> We execute multi-channel verification and syntax error checks to ensure your emails bypass spam filters and land in the inbox.
               </p>
               <p>
-                <strong>Customization:</strong> Segment lists based on specific technologies, company size, revenue, and geography. Gilbert Data helps you customize the technology users list based on your specific business requirements to launch targeted B2B marketing campaigns successfully.
+                <strong>Customization:</strong> Segment lists based on specific technologies, company size, revenue, and geography. E-Data helps you customize the technology users list based on your specific business requirements to launch targeted B2B marketing campaigns successfully.
               </p>
               <p>
                 <strong>Global Reach:</strong> Connect with key technology professionals and decision makers in the USA, UK, Canada, Europe, Australia, and more.

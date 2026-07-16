@@ -38,7 +38,7 @@ export function SiteHeader() {
   const textClass = (isScrolled || isLightPage) ? "text-[#3a485c]" : "text-white/90";
   const hoverTextClass = (isScrolled || isLightPage) ? "hover:text-[#131b2e]" : "hover:text-white";
 
-  const linkClass = `font-body font-medium text-[15px] transition-all duration-200 ${textClass} ${hoverTextClass}`;
+  const linkClass = `font-sans font-medium text-[15px] transition-all duration-200 ${textClass} ${hoverTextClass}`;
   
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/";
@@ -47,7 +47,7 @@ export function SiteHeader() {
 
   const getLinkStyle = (href: string) => {
     if (isActive(href)) {
-      return `font-body font-semibold text-[15px] ${(isScrolled || isLightPage) ? "text-[#8dc63f]" : "text-white"}`;
+      return `font-sans font-semibold text-[15px] ${(isScrolled || isLightPage) ? "text-[#8dc63f]" : "text-white"}`;
     }
     return linkClass;
   };
@@ -69,11 +69,11 @@ export function SiteHeader() {
 
   return (
     <header className={headerClass}>
-      <nav className="max-w-[1440px] mx-auto px-6 md:px-12 flex justify-between items-center transition-all duration-300">
+      <nav className="max-w-[1440px] mx-auto px-6 md:px-12 flex justify-between items-center gap-4 lg:gap-8 transition-all duration-300">
         
         {/* Logo */}
         <Link href="/" className="flex items-center transition-opacity hover:opacity-90 shrink-0">
-          <img src="/images/GDlogo.png" alt="Gilbert Data" className="h-10 w-auto object-contain" />
+          <span className={`font-display-lg text-2xl font-black tracking-tighter ${textClass}`}>E-Data</span>
         </Link>
         
         {/* Main Navigation (Desktop + Tablet) */}

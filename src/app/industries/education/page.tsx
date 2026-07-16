@@ -194,9 +194,9 @@ export default function EducationIndustry() {
         <section className="py-16 bg-background border-b border-outline-variant/30 text-center">
           <div className="max-w-[1000px] mx-auto px-5 md:px-10">
             <div className="space-y-6 text-on-surface-variant leading-relaxed text-center">
-              <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary mb-6" data-aos="fade-up">Education Industry List By Gilbert Data</h2>
+              <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary mb-6" data-aos="fade-up">Education Industry List By E-Data</h2>
               <p className="text-lg md:text-xl text-on-surface-variant">
-                The Education Industry Email List from Gilbert Data is an optimal, highly-responsive database meticulously gathered and verified to ensure your message reaches top-tier decision-makers. Whether you are looking to connect with K-12 principals, university deans, or specialized school directors, our lists provide the comprehensive coverage you need.
+                The Education Industry Email List from E-Data is an optimal, highly-responsive database meticulously gathered and verified to ensure your message reaches top-tier decision-makers. Whether you are looking to connect with K-12 principals, university deans, or specialized school directors, our lists provide the comprehensive coverage you need.
               </p>
               <p className="text-lg md:text-xl text-on-surface-variant">
                 We continually update and cleanse our records to guarantee high deliverability, enabling you to build impactful marketing campaigns. Expand your global reach and connect with key figures in educational institutions to effectively promote your services, software, and products.

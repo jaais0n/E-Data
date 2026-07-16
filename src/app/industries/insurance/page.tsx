@@ -119,7 +119,7 @@ export default function InsuranceIndustry() {
               <p>Reach insurance industry professionals with the complete and accurate contact information to boost marketing ROI.</p>
               <p>Connect with thousands of policyholders, key managers, and top executives in the insurance sector using our highly responsive mailing list.</p>
               <p>Enhance your brand visibility and engage with a responsive audience through our customizable insurance industry email addresses.</p>
-              <p>Gilbert Data offers a comprehensive and segmented database of the top insurance industry professionals that ensures your sales pitch reaches the right inbox for higher conversion rates and sales revenue.</p>
+              <p>E-Data offers a comprehensive and segmented database of the top insurance industry professionals that ensures your sales pitch reaches the right inbox for higher conversion rates and sales revenue.</p>
             </div>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function InsuranceIndustry() {
                 The insurance industry is highly competitive, and to stay ahead, you need a targeted approach. Our meticulously compiled Insurance Industry Email List provides you with direct access to Insurance Agents, Brokers, Executives, and Underwriters globally. By utilizing our highly responsive data, you can build meaningful relationships with key decision-makers who have the authority to purchase your products or services.
               </p>
               <p>
-                At Gilbert Data, we understand the specific needs of marketers. Our database is verified and continuously updated to ensure that your message reaches the right inbox at the right time. Whether you are promoting a financial software, consulting services, or insurance products, our lists are tailored to match your specific campaign requirements.
+                At E-Data, we understand the specific needs of marketers. Our database is verified and continuously updated to ensure that your message reaches the right inbox at the right time. Whether you are promoting a financial software, consulting services, or insurance products, our lists are tailored to match your specific campaign requirements.
               </p>
               <p>
                 Expand your business reach and boost your sales pipeline with our high-quality, verified data. Our targeted lists will help you maximize your return on investment and achieve your business objectives with ease.

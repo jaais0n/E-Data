@@ -27,7 +27,7 @@ export default function Home() {
             </h1>
             
             <p className="text-sm md:text-base text-on-surface-variant max-w-2xl leading-relaxed font-medium">
-              Among all marketing channels, email lists deliver the highest ROI. Gilbert Data matches, enriches, and validates direct contacts to power your outreach campaigns.
+              Among all marketing channels, email lists deliver the highest ROI. E-Data matches, enriches, and validates direct contacts to power your outreach campaigns.
             </p>
 
             <div className="pt-1">
@@ -377,7 +377,7 @@ export default function Home() {
                     <div className="bg-surface-container-low border border-outline-variant/20 rounded-xl p-2.5 flex items-center gap-2 text-left">
                       <span className="material-symbols-outlined text-lg text-emerald-500 select-none">description</span>
                       <div className="min-w-0 flex-1">
-                        <p className="text-[10px] font-bold text-primary truncate">GilbertData_Leads.csv</p>
+                        <p className="text-[10px] font-bold text-primary truncate">E-Data_Leads.csv</p>
                         <p className="text-[8px] text-on-surface-variant font-medium">12,450 Verified Contacts</p>
                       </div>
                     </div>
@@ -431,7 +431,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {[
             { q: "Our marketing efforts skyrocketed thanks to the precise email lists. The data was accurate and helped us close deals faster than ever before.", n: "Sarah Jenkins", r: "Marketing Director" },
-            { q: "The lead quality from GilbertData is unmatched. We saw a 3x increase in response rate on our outreach campaigns.", n: "Michael Chen", r: "VP of Sales" },
+            { q: "The lead quality from E-Data is unmatched. We saw a 3x increase in response rate on our outreach campaigns.", n: "Michael Chen", r: "VP of Sales" },
             { q: "Highly recommended data partner. The verification process is thorough, and the customer support is extremely helpful.", n: "Elena Rostova", r: "Growth Lead" }
           ].map((t, idx) => (
             <div key={t.n} className="bg-surface-container-lowest p-8 border border-outline-variant/30 rounded-lg diffusion-shadow flex flex-col justify-between group hover:scale-[1.02] transition-transform duration-300">

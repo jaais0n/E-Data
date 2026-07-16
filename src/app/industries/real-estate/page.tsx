@@ -186,7 +186,7 @@ export default function RealEstateIndustry() {
                 Start effectively engaging your potential real estate executives with highly responsive Real Estate email lists. Take a smarter marketing approach by utilizing our high-quality marketing data for all your targeted multi-channel marketing campaigns. Target prospects via email, direct mail, or telephone effectively. The Real Estate Email List contains the contact information of all targeted decision-makers, executives, and other related professionals. Leveraging our precise, accurate database, we ensure maximum deliverability rates of your sales messages that minimize bounce rates and maximize your business ROI.
               </p>
               <p>
-                When it comes to building authentic business connections, quality lists of real estate executives are of prime importance. At Gilbert Data we provide top-notch data that yields maximum revenue by reaching your target audience efficiently.
+                When it comes to building authentic business connections, quality lists of real estate executives are of prime importance. At E-Data we provide top-notch data that yields maximum revenue by reaching your target audience efficiently.
               </p>
               <p>
                 And you can easily boost the conversion rate of your B2B campaigns to get higher ROI. Build stronger connections globally that boost revenue.

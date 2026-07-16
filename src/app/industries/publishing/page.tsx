@@ -84,7 +84,7 @@ export default function PublishingIndustry() {
             <div className="text-lg md:text-xl text-on-surface-variant leading-relaxed space-y-4">
               <p>Promote your products and services to the right prospects with the complete contact details of top media and publishing company professionals from our comprehensive media and publishing data contact list.</p>
               <p>Get customized media and publishing industry email list to reach out to top publishing executives, editors, columnists, designers, reporters, and more from different parts of the globe.</p>
-              <p>Gilbert Data offers highly verified and responsive media and publishing industry email contact list to help you build strong business networks and easily run your B2B multi-channel marketing campaigns.</p>
+              <p>E-Data offers highly verified and responsive media and publishing industry email contact list to help you build strong business networks and easily run your B2B multi-channel marketing campaigns.</p>
               <p>The rapidly changing scenario of the media and publishing industry makes it quite difficult to sustain. Therefore, you need a highly targeted email list to maximize your ROI.</p>
             </div>
           </div>
@@ -181,10 +181,10 @@ export default function PublishingIndustry() {
                 The media and publishing industry is highly dynamic and competitive. Therefore, it is important to build a strong business network to survive in this highly competitive industry. By having the complete contact details of the top decision-makers from the media and publishing industry you can launch successful marketing campaigns to reach out to your prospects easily and efficiently. However, reaching out to top executives can be somewhat difficult. We provide the media and publishing industry contact list to help you reach out to your prospects easily.
               </p>
               <p>
-                Gilbert Data is one of the leading data providers across the globe. Our highly experienced team of data experts gathers the contact details from authentic sources such as business directories, trade shows, business magazines, surveys, seminars, and more. We verify and update the database frequently to deliver the most reliable media and publishing industry email lists. We help you customize the media and publishing industry email list based on your specific business requirements and launch targeted B2B marketing campaigns successfully.
+                E-Data is one of the leading data providers across the globe. Our highly experienced team of data experts gathers the contact details from authentic sources such as business directories, trade shows, business magazines, surveys, seminars, and more. We verify and update the database frequently to deliver the most reliable media and publishing industry email lists. We help you customize the media and publishing industry email list based on your specific business requirements and launch targeted B2B marketing campaigns successfully.
               </p>
               <p>
-                When it comes to building authentic business connections, quality lists of media and publishing industry executives are of prime importance. At Gilbert Data we provide top-notch data that yields maximum revenue by reaching your target audience efficiently. And you can easily boost the conversion rate of your B2B campaigns to get higher ROI. Build stronger connections globally that boost revenue. Get higher ROI on your marketing campaigns.
+                When it comes to building authentic business connections, quality lists of media and publishing industry executives are of prime importance. At E-Data we provide top-notch data that yields maximum revenue by reaching your target audience efficiently. And you can easily boost the conversion rate of your B2B campaigns to get higher ROI. Build stronger connections globally that boost revenue. Get higher ROI on your marketing campaigns.
               </p>
             </div>
           </div>
