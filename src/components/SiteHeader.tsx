@@ -73,7 +73,7 @@ export function SiteHeader() {
         
         {/* Logo */}
         <Link href="/" className="flex items-center transition-opacity hover:opacity-90 shrink-0">
-          <span className={`font-display-lg text-2xl font-black tracking-tighter ${textClass}`}>E-Data</span>
+          <img src="/images/Edata.png" alt="E-Data" className="h-12 w-auto object-contain" />
         </Link>
         
         {/* Main Navigation (Desktop + Tablet) */}

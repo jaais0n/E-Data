@@ -17,7 +17,7 @@ export function SiteFooter() {
           <div className="md:col-span-4">
             <div className="mb-6">
               <Link href="/" className="inline-block">
-                <span className="font-display-lg text-3xl font-black tracking-tighter text-on-surface">E-Data</span>
+                <img src="/images/Edata.png" alt="E-Data" className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <h4 className="font-label-mono text-label-mono text-secondary mb-6 block font-bold">About Company</h4>
