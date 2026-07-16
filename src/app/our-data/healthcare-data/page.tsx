@@ -44,12 +44,12 @@ export default function HealthcareData() {
     <div className="min-h-screen bg-background text-on-surface flex flex-col font-sans">
       <main className="flex-1">
         {/* 1. Hero Section */}
-        <section className="relative bg-[#0b0f19] text-on-primary pt-48 pb-28 overflow-hidden border-b border-outline-variant/10">
+        <section className="relative bg-[#0b0f19] text-on-primary pt-32 md:pt-48 pb-16 md:pb-28 overflow-hidden border-b border-outline-variant/10">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-[#131b2e]/20 via-transparent to-transparent pointer-events-none" />
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#131b2e]/10 rounded-full blur-[120px] animate-pulse duration-[8000ms] pointer-events-none" />
 
-          <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-secondary-fixed mb-2 block tracking-widest font-bold">MEDICAL &amp; HEALTHCARE DATA</span>
@@ -83,10 +83,10 @@ export default function HealthcareData() {
 
         {/* 2. Image and Text Section */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative justify-self-center lg:justify-self-start">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-[#8dc63f] opacity-20 blur-2xl rounded-full"></div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 alt="Healthcare Database" 
                 className="w-full max-w-[500px] h-auto object-cover rounded-2xl diffusion-shadow relative z-10"
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
@@ -115,7 +115,7 @@ export default function HealthcareData() {
         {/* 3. Featured Categories Grid */}
         <section className="bg-surface-container-lowest py-24 border-b border-outline-variant/30">
           <div className="max-w-[1280px] mx-auto px-5 md:px-10">
-            <div className="text-center mb-16 space-y-3" data-aos="fade-up">
+            <div className="text-center mb-10 md:mb-16 space-y-3" data-aos="fade-up">
               <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">
                 Healthcare Professionals <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">Lists</span>
               </h2>
@@ -147,7 +147,7 @@ export default function HealthcareData() {
 
         {/* 4. Massive Professionals List Grid */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30">
-          <div className="text-center mb-16 space-y-3" data-aos="fade-up">
+          <div className="text-center mb-10 md:mb-16 space-y-3" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">EXTENSIVE COVERAGE</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">
               Our Healthcare Professionals <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">Database</span>
@@ -167,7 +167,7 @@ export default function HealthcareData() {
         </section>
 
         {/* 5. Green CTA Bar */}
-        <section className="bg-gradient-to-r from-[#8dc63f] to-[#9cd34c] py-12 px-5 text-center">
+        <section className="bg-gradient-to-r from-[#8dc63f] to-[#9cd34c] py-8 md:py-12 px-5 text-center">
           <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
             <h2 className="text-3xl md:text-5xl font-black text-[#131b2e]" data-aos="fade-up">Get Verified &amp; Customized Healthcare Email List Now</h2>
             <Link href="/contact" className="bg-[#131b2e] text-white px-8 py-3 rounded-xl font-label-mono font-bold hover:brightness-110 transition-all shadow-lg whitespace-nowrap">
@@ -177,7 +177,7 @@ export default function HealthcareData() {
         </section>
 
         {/* 6. Refine & Details */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
           <div className="bg-surface-container-lowest p-8 md:p-12 border border-outline-variant/30 rounded-3xl shadow-lg hover:border-[#131b2e]/30 transition-all duration-300" data-aos="fade-up">
             <div className="flex items-center gap-4 mb-8 border-b border-outline-variant/20 pb-6">
               <div className="w-10 h-10 rounded-xl bg-[#131b2e]/10 flex items-center justify-center text-[#131b2e]">

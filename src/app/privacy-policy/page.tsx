@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-background text-on-surface pt-48 pb-24 font-sans">
+    <div className="min-h-screen bg-background text-on-surface pt-32 md:pt-48 pb-24 font-sans">
       <div className="max-w-[900px] mx-auto px-5 md:px-10">
         <h1 className="font-display-lg text-4xl md:text-5xl font-extrabold mb-4 text-[#131b2e] tracking-tight">
           Privacy Policy

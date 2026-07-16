@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       {/* 1. Hero */}
-      <section className="relative bg-[#f7f9fb] text-primary pt-32 pb-20 overflow-hidden border-b border-outline-variant/20">
+      <section className="relative bg-[#f7f9fb] text-primary pt-32 pb-12 md:pb-20 overflow-hidden border-b border-outline-variant/20">
         {/* Grid pattern overlay */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#131b2e05_1px,transparent_1px),linear-gradient(to_bottom,#131b2e05_1px,transparent_1px)] bg-[size:40px_40px]" />
         
@@ -112,7 +112,7 @@ export default function Home() {
               <div className="flex -space-x-3 items-center shrink-0">
                 {[33, 12, 47, 65, 8].map((imgId, idx) => (
                   <div key={idx} className="w-10 h-10 rounded-full border-2 border-white overflow-hidden bg-surface-container-high shadow-md">
-                    <img src={`https://i.pravatar.cc/100?img=${imgId}`} alt="Target professional" className="w-full h-full object-cover" />
+                    <img loading="lazy" decoding="async" src={`https://i.pravatar.cc/100?img=${imgId}`} alt="Target professional" className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>
@@ -312,7 +312,7 @@ export default function Home() {
 
       {/* 4. Workflow Section */}
       <section className="bg-surface-container-lowest py-28 border-y border-outline-variant/30 text-center">
-        <div className="max-w-[1280px] mx-auto px-5 md:px-10 space-y-20">
+        <div className="max-w-[1280px] mx-auto px-5 md:px-10 space-y-10 md:space-y-20">
           <div className="space-y-4 max-w-xl mx-auto" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-secondary tracking-widest font-bold">SIMPLE WORKFLOW</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary leading-tight tracking-tight" data-aos="fade-up">
@@ -406,8 +406,8 @@ export default function Home() {
 
 
       {/* 6. Custom Solution Banner */}
-      <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-12">
-        <div className="bg-gradient-to-r from-[#131b2e] via-[#131b2e] to-[#131b2e] text-white p-10 md:p-14 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden shadow-2xl border border-white/5" data-aos="fade-up">
+      <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-8 md:py-12">
+        <div className="bg-gradient-to-r from-[#131b2e] via-[#131b2e] to-[#131b2e] text-white p-6 md:p-14 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden shadow-2xl border border-white/5" data-aos="fade-up">
           <div className="absolute inset-0 bg-cover bg-center opacity-5 mix-blend-overlay" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" }} />
           <div className="relative z-10 space-y-2">
             <h3 className="font-display-lg text-2xl md:text-3xl font-extrabold tracking-tight text-white font-black">Get Verified & Customized B2B Email List Now</h3>
@@ -426,7 +426,7 @@ export default function Home() {
       <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-28 text-center">
         <span className="font-label-mono text-label-mono text-secondary mb-4 block">Reliability Verified</span>
         <h2 className="font-display-lg text-display-lg mb-4" data-aos="fade-up">Everything starts with the <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f] italic">Customers</span></h2>
-        <p className="text-body-lg text-on-surface-variant mb-20 max-w-2xl mx-auto">We give 100% data authenticity and quality leads to our clients.</p>
+        <p className="text-body-lg text-on-surface-variant mb-10 md:mb-20 max-w-2xl mx-auto">We give 100% data authenticity and quality leads to our clients.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {[
@@ -447,7 +447,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-surface-container">
-                    <img src={`https://i.pravatar.cc/150?img=${idx + 10}`} alt={t.n} className="w-full h-full object-cover" />
+                    <img loading="lazy" decoding="async" src={`https://i.pravatar.cc/150?img=${idx + 10}`} alt={t.n} className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <p className="font-bold text-on-surface text-sm">{t.n}</p>
@@ -463,7 +463,7 @@ export default function Home() {
 
 
       {/* 8. Ready to Scale Outreach CTA */}
-      <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 text-center space-y-8 bg-surface-container-lowest border border-outline-variant/30 rounded-3xl mt-20 group hover:shadow-2xl transition-all duration-300">
+      <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 text-center space-y-8 bg-surface-container-lowest border border-outline-variant/30 rounded-3xl mt-10 md:mt-20 group hover:shadow-2xl transition-all duration-300">
         <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary leading-tight max-w-2xl mx-auto tracking-tight" data-aos="fade-up">
           Ready to Accelerate Your <br /> Target Sales Campaigns?
         </h2>

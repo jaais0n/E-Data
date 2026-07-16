@@ -6,13 +6,13 @@ export function SiteFooter() {
     <footer className="bg-surface-container-lowest border-t border-outline-variant/30 text-on-surface">
       {/* Pre-footer CTA */}
       <div className="bg-primary">
-        <div className="max-w-[1280px] mx-auto px-5 md:px-10 py-12 flex justify-center items-center text-center">
+        <div className="max-w-[1280px] mx-auto px-5 md:px-10 py-8 md:py-12 flex justify-center items-center text-center">
           <h2 className="font-display-lg text-2xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-[#8dc63f] tracking-tight">Work with the best Data Team</h2>
         </div>
       </div>
 
-      <div className="max-w-[1280px] mx-auto px-5 md:px-10 py-24">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
+      <div className="max-w-[1280px] mx-auto px-5 md:px-10 py-12 md:py-24">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-10 md:mb-16">
           {/* About Company */}
           <div className="md:col-span-4">
             <div className="mb-6">

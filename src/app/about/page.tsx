@@ -16,7 +16,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* Header Banner */}
-      <section className="bg-[#0b0f19] text-on-primary pt-40 pb-20 relative overflow-hidden border-b border-outline-variant/10">
+      <section className="bg-[#0b0f19] text-on-primary pt-28 md:pt-40 pb-12 md:pb-20 relative overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" }} />
         <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10">
@@ -25,12 +25,12 @@ export default function About() {
         </div>
       </section>
 
-      <main className="py-24">
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 pb-28">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <main className="py-12 md:py-24">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 pb-10 md:pb-28">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
             {/* Left Image Side */}
             <div className="relative justify-self-center lg:justify-self-start">
-              <img 
+              <img loading="lazy" decoding="async" 
                 alt="Business Professional" 
                 className="w-full max-w-[450px] h-auto object-cover rounded-lg diffusion-shadow"
                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
@@ -44,13 +44,13 @@ export default function About() {
             {/* Right Text Side */}
             <div className="mt-12 lg:mt-0 lg:pl-10">
               <span className="font-label-mono text-label-mono text-primary tracking-[0.2em] uppercase mb-4 block font-bold">ABOUT US</span>
-              <h1 className="font-display-lg text-4xl lg:text-5xl mb-6 font-bold text-on-surface">Why <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Gilbert Data</span> !</h1>
+              <h2 className="font-display-lg text-4xl lg:text-5xl mb-6 font-bold text-on-surface">Why <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Gilbert Data</span> !</h2>
               <p className="text-on-surface-variant text-body-lg leading-relaxed mb-10">
                 Since 2008 Gilbert data is one of the pioneer and believed data drive data driven marketing services that provides marketing solutions comprising of business list, technology user list, healthcare list and also appending services.
               </p>
               
               <div className="mb-6 min-h-[140px]">
-                <div className="flex gap-8 border-b border-outline-variant/30 font-label-mono text-sm tracking-wider font-bold mb-6">
+                <div className="flex gap-4 sm:gap-8 overflow-x-auto border-b border-outline-variant/30 font-label-mono text-xs sm:text-sm tracking-wider font-bold mb-6 pb-0 no-scrollbar">
                   {(["WHO WE ARE", "WHAT WE DO", "OUR MISSION"] as const).map(tab => (
                     <button 
                       key={tab}
@@ -72,9 +72,9 @@ export default function About() {
         </section>
 
         {/* 2. Our Services */}
-        <section className="bg-surface-container-lowest py-28 border-y border-outline-variant/30">
+        <section className="bg-surface-container-lowest py-14 md:py-28 border-y border-outline-variant/30">
           <div className="max-w-[1280px] mx-auto px-5 md:px-10">
-            <div className="text-center mb-16" data-aos="fade-up">
+            <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
               <span className="font-label-mono text-label-mono text-secondary mb-4 block">SERVICES</span>
               <h2 className="font-display-lg text-display-lg text-primary mb-4" data-aos="fade-up">Our <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Services</span></h2>
             </div>
@@ -107,7 +107,7 @@ export default function About() {
                     <h3 className="font-headline-md text-xl mb-4 text-on-surface group-hover:text-primary transition-colors">{s.t}</h3>
                     <p className="text-sm text-on-surface-variant leading-relaxed">{s.d}</p>
                   </div>
-                  <div className="mt-8 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <div className="mt-8 opacity-70 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-0">
                     <Link href={s.href} className="font-label-mono text-xs text-primary border-b border-primary pb-0.5 hover:border-b-2 transition-all">
                       READ MORE &rarr;
                     </Link>
@@ -119,8 +119,8 @@ export default function About() {
         </section>
 
         {/* 3. Technology Email List */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-28">
-          <div className="text-center mb-16" data-aos="fade-up">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-14 md:py-28">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-secondary mb-4 block">ENGAGEMENT</span>
             <h2 className="font-display-lg text-display-lg text-primary mb-4" data-aos="fade-up">Technology <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Email List</span></h2>
           </div>
@@ -158,7 +158,7 @@ export default function About() {
                   <h3 className="font-headline-md text-xl mb-4 text-on-surface group-hover:text-primary transition-colors">{s.t}</h3>
                   <p className="text-sm text-on-surface-variant leading-relaxed">{s.d}</p>
                 </div>
-                <div className="mt-8 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                <div className="mt-8 opacity-70 group-hover:opacity-100 transition-all duration-300">
                   <Link href={s.href} className="font-label-mono text-xs text-primary border-b border-primary pb-0.5 hover:border-b-2 transition-all">
                     READ MORE &rarr;
                   </Link>
@@ -169,9 +169,9 @@ export default function About() {
         </section>
 
         {/* 4. Business industry Email */}
-        <section className="bg-surface-container-lowest py-28 border-t border-outline-variant/30">
+        <section className="bg-surface-container-lowest py-14 md:py-28 border-t border-outline-variant/30">
           <div className="max-w-[1280px] mx-auto px-5 md:px-10">
-            <div className="text-center mb-16" data-aos="fade-up">
+            <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
               <span className="font-label-mono text-label-mono text-secondary mb-4 block">SECTOR INSIGHTS</span>
               <h2 className="font-display-lg text-display-lg text-primary mb-4" data-aos="fade-up">Business <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Industry Email</span></h2>
             </div>
@@ -204,7 +204,7 @@ export default function About() {
                     <h3 className="font-headline-md text-xl mb-4 text-on-surface group-hover:text-primary transition-colors">{s.t}</h3>
                     <p className="text-sm text-on-surface-variant leading-relaxed">{s.d}</p>
                   </div>
-                  <div className="mt-8 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <div className="mt-8 opacity-70 group-hover:opacity-100 transition-all duration-300">
                     <Link href={s.href} className="font-label-mono text-xs text-primary border-b border-primary pb-0.5 hover:border-b-2 transition-all">
                       READ MORE &rarr;
                     </Link>

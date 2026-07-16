@@ -69,7 +69,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* 1. Header Banner */}
-      <section className="bg-[#0b0f19] text-on-primary pt-40 pb-20 relative overflow-hidden border-b border-outline-variant/10">
+      <section className="bg-[#0b0f19] text-on-primary pt-28 md:pt-40 pb-12 md:pb-20 relative overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" }} />
         <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10">
@@ -78,9 +78,9 @@ export default function Contact() {
         </div>
       </section>
 
-      <main className="py-24">
+      <main className="py-12 md:py-24">
         {/* 2. Content & Form Split */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-start pb-24 border-b border-outline-variant/30">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-start pb-12 md:pb-24 border-b border-outline-variant/30">
           {/* Left Text */}
           <div className="lg:col-span-7">
             <p className="text-body-lg text-on-surface-variant mb-10 leading-relaxed font-semibold">
@@ -138,8 +138,8 @@ export default function Contact() {
         </section>
 
         {/* 3. Sales Team & Offices */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30">
-          <div className="text-center mb-16" data-aos="fade-up">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-12 md:py-24 border-b border-outline-variant/30">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-secondary mb-4 block">GET IN TOUCH</span>
             <h2 className="font-display-lg text-3xl md:text-4xl text-primary uppercase" data-aos="fade-up">OUR SALES TEAM IS READY TO <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">HELP YOU</span></h2>
           </div>
@@ -177,8 +177,8 @@ export default function Contact() {
         <ClientMarquee />
 
         {/* 5. FAQs */}
-        <section className="max-w-[800px] mx-auto px-5 md:px-10 py-24">
-          <div className="text-center mb-16" data-aos="fade-up">
+        <section className="max-w-[800px] mx-auto px-5 md:px-10 py-12 md:py-24">
+          <div className="text-center mb-10 md:mb-16" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-secondary mb-4 block">QUESTIONS</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">Frequently Asked <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Questions</span></h2>
           </div>

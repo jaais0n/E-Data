@@ -1,6 +1,6 @@
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen bg-background text-on-surface pt-48 pb-24">
+    <div className="min-h-screen bg-background text-on-surface pt-32 md:pt-48 pb-24">
       <div className="max-w-[800px] mx-auto px-5">
         <h1 className="font-display-lg text-4xl font-extrabold mb-8 text-primary">Terms of Service</h1>
         <p className="text-on-surface-variant mb-6">Last Updated: June 2026</p>

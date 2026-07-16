@@ -25,7 +25,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* Hero Section */}
-      <section className="relative pt-40 pb-24 md:pb-32 overflow-hidden border-b border-outline-variant/10">
+      <section className="relative pt-28 md:pt-40 pb-24 md:pb-32 overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[#0b0f19]" />
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         
@@ -64,7 +64,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
       <main className="py-24">
         <article className="max-w-[800px] mx-auto px-5">
           {/* Featured Image */}
-          <div className="relative aspect-[21/9] w-full rounded-2xl overflow-hidden shadow-2xl mb-16 border border-outline-variant/30">
+          <div className="relative aspect-[21/9] w-full rounded-2xl overflow-hidden shadow-2xl mb-10 md:mb-16 border border-outline-variant/30">
             <img 
               src={blog.img} 
               alt={blog.title} 

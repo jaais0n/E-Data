@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* Header Banner */}
-      <section className="bg-[#0b0f19] text-on-primary pt-40 pb-20 relative overflow-hidden border-b border-outline-variant/10">
+      <section className="bg-[#0b0f19] text-on-primary pt-28 md:pt-40 pb-12 md:pb-20 relative overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')" }} />
         
@@ -21,7 +21,7 @@ export default function Blog() {
 
       <main className="py-24">
         {/* Blog Grid */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 pb-28">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 pb-16 md:pb-28">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up" data-aos-delay="100">
             {blogs.map(b => (
               <Link key={b.id} href={`/resources/blog/${b.slug}`} className="block group cursor-pointer">

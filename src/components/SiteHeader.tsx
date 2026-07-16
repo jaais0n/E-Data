@@ -3,9 +3,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 export function SiteHeader() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [expandedSection, setExpandedSection] = useState<string | null>(null);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -16,6 +19,15 @@ export function SiteHeader() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Close mobile menu on path changes
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [pathname]);
+
+  const toggleSection = (section: string) => {
+    setExpandedSection(expandedSection === section ? null : section);
+  };
 
   const isLightPage = pathname === "/" || pathname === "/privacy-policy" || pathname === "/terms-of-service";
 
@@ -60,12 +72,12 @@ export function SiteHeader() {
       <nav className="max-w-[1440px] mx-auto px-6 md:px-12 flex justify-between items-center transition-all duration-300">
         
         {/* Logo */}
-        <Link href="/" className="flex items-center transition-opacity hover:opacity-90">
+        <Link href="/" className="flex items-center transition-opacity hover:opacity-90 shrink-0">
           <img src="/images/GDlogo.png" alt="Gilbert Data" className="h-10 w-auto object-contain" />
         </Link>
         
         {/* Main Navigation (Desktop + Tablet) */}
-        <div className="flex items-center gap-8 lg:gap-10">
+        <div className="hidden lg:flex items-center gap-6 lg:gap-10">
           <Link href="/" className={getLinkStyle("/")}>Home</Link>
           <Link href="/about" className={getLinkStyle("/about")}>About</Link>
           
@@ -148,16 +160,146 @@ export function SiteHeader() {
           <Link href="/contact" className={getLinkStyle("/contact")}>Contact Us</Link>
         </div>
         
-        {/* Right CTA */}
-        <div className="flex items-center gap-4">
-          <Link
-            href="/contact"
-            className="bg-[#131b2e] text-white hover:bg-[#131b2e]/90 px-6 py-2.5 rounded-full font-label-mono text-[11px] transition-all font-bold shadow-md hover:scale-[1.02] uppercase tracking-wider"
+        {/* Right CTA / Mobile Toggle */}
+        <div className="flex items-center gap-4 shrink-0">
+          <div className="hidden lg:flex items-center gap-4">
+            <Link
+              href="/contact"
+              className="bg-[#131b2e] text-white hover:bg-[#131b2e]/90 px-6 py-2.5 rounded-full font-label-mono text-[11px] transition-all font-bold shadow-md hover:scale-[1.02] uppercase tracking-wider"
+            >
+              Book a Demo
+            </Link>
+          </div>
+
+          {/* Hamburger Menu Toggle */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className={`lg:hidden p-2 focus:outline-none transition-colors ${textClass}`}
+            aria-label="Toggle Navigation"
           >
-            Book a Demo
-          </Link>
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white border-t border-[#131b2e]/10 shadow-2xl flex flex-col z-40 max-h-[calc(100vh-100%)] overflow-y-auto">
+          <div className="flex-1 p-6 space-y-6">
+            <div className="flex flex-col space-y-4">
+              <Link 
+                href="/" 
+                className="text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors"
+              >
+                Home
+              </Link>
+              <Link 
+                href="/about" 
+                className="text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors"
+              >
+                About
+              </Link>
+
+              {/* Our Data Dropdown/Accordion */}
+              <div className="space-y-2">
+                <button 
+                  onClick={() => toggleSection("our-data")}
+                  className="flex items-center justify-between w-full text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors focus:outline-none"
+                >
+                  <span>Our Data</span>
+                  <ChevronDown className={`w-5 h-5 text-[#3a485c] transition-transform duration-200 ${expandedSection === "our-data" ? "rotate-180" : ""}`} />
+                </button>
+                {expandedSection === "our-data" && (
+                  <div className="pl-4 border-l-2 border-[#131b2e]/10 flex flex-col space-y-3 pt-2">
+                    <Link href="/our-data/b2b-marketing-data" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">B2B Marketing Data</Link>
+                    <Link href="/our-data/custom-data" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Custom Data</Link>
+                    <Link href="/our-data/targeted-contact-data" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Targeted Contact Data</Link>
+                    <Link href="/our-data/healthcare-data" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Healthcare Data</Link>
+                    <Link href="/our-data/technology-installs" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Technology Installs</Link>
+                  </div>
+                )}
+              </div>
+
+              {/* Data Enhancement Dropdown/Accordion */}
+              <div className="space-y-2">
+                <button 
+                  onClick={() => toggleSection("data-enhancement")}
+                  className="flex items-center justify-between w-full text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors focus:outline-none"
+                >
+                  <span>Data Enhancement</span>
+                  <ChevronDown className={`w-5 h-5 text-[#3a485c] transition-transform duration-200 ${expandedSection === "data-enhancement" ? "rotate-180" : ""}`} />
+                </button>
+                {expandedSection === "data-enhancement" && (
+                  <div className="pl-4 border-l-2 border-[#131b2e]/10 flex flex-col space-y-3 pt-2">
+                    <Link href="/data-enhancement/data-appending" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Data Appending</Link>
+                    <Link href="/data-enhancement/email-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Email Append</Link>
+                    <Link href="/data-enhancement/email-validation" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Email Validation</Link>
+                    <Link href="/data-enhancement/duns-number-appending" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">DUNS Number Appending</Link>
+                    <Link href="/data-enhancement/reverse-email-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Reverse Email Append</Link>
+                    <Link href="/data-enhancement/phone-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Phone Append</Link>
+                    <Link href="/data-enhancement/sic-naics-code-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">SIC & NAICS Code Append</Link>
+                    <Link href="/data-enhancement/web-address-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Web Address Append</Link>
+                    <Link href="/data-enhancement/fax-number-append" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Fax Number Append</Link>
+                  </div>
+                )}
+              </div>
+
+              {/* Industries Dropdown/Accordion */}
+              <div className="space-y-2">
+                <button 
+                  onClick={() => toggleSection("industries")}
+                  className="flex items-center justify-between w-full text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors focus:outline-none"
+                >
+                  <span>Industries</span>
+                  <ChevronDown className={`w-5 h-5 text-[#3a485c] transition-transform duration-200 ${expandedSection === "industries" ? "rotate-180" : ""}`} />
+                </button>
+                {expandedSection === "industries" && (
+                  <div className="pl-4 border-l-2 border-[#131b2e]/10 grid grid-cols-2 gap-3 pt-2">
+                    <Link href="/industries/healthcare" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Healthcare</Link>
+                    <Link href="/industries/technology" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Technology</Link>
+                    <Link href="/industries/education" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Education</Link>
+                    <Link href="/industries/marketing" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Marketing</Link>
+                    <Link href="/industries/retail" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Retail</Link>
+                    <Link href="/industries/insurance" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Insurance</Link>
+                    <Link href="/industries/manufacturing" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Manufacturing</Link>
+                    <Link href="/industries/real-estate" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Real Estate</Link>
+                    <Link href="/industries/staffing" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Staffing</Link>
+                    <Link href="/industries/telecom" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Telecom</Link>
+                    <Link href="/industries/finance" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Finance</Link>
+                    <Link href="/industries/food" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Food & Bev</Link>
+                    <Link href="/industries/travel" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Travel</Link>
+                    <Link href="/industries/automobile" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Automobile</Link>
+                    <Link href="/industries/oil-gas" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Oil & Gas</Link>
+                    <Link href="/industries/publishing" className="text-sm font-medium text-[#3a485c] hover:text-[#131b2e]">Publishing</Link>
+                  </div>
+                )}
+              </div>
+
+              <Link 
+                href="/resources/blog" 
+                className="text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors"
+              >
+                Blog
+              </Link>
+              <Link 
+                href="/contact" 
+                className="text-lg font-semibold text-[#131b2e] hover:text-[#8dc63f] transition-colors"
+              >
+                Contact Us
+              </Link>
+            </div>
+            
+            <div className="pt-6 border-t border-[#131b2e]/10">
+              <Link
+                href="/contact"
+                className="block text-center bg-[#131b2e] text-white py-3 rounded-full font-semibold shadow-md text-sm uppercase tracking-wider"
+              >
+                Book a Demo
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

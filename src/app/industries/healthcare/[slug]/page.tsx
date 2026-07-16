@@ -86,7 +86,7 @@ function getDynamicContent(title: string, count: string): DynamicContent {
   };
 }
 
-export default async function HealthcareDynamicPage({ params }: { params: { slug: string } }) {
+export default async function HealthcareDynamicPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
   
   // Find the exact item if we have customized data for it
@@ -105,12 +105,12 @@ export default async function HealthcareDynamicPage({ params }: { params: { slug
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* Premium Hero Section */}
-      <section className="relative bg-[#0b0f19] text-on-primary pt-48 pb-28 overflow-hidden border-b border-outline-variant/10">
+      <section className="relative bg-[#0b0f19] text-on-primary pt-32 md:pt-48 pb-16 md:pb-28 overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#131b2e] rounded-full blur-[120px] animate-pulse duration-[8000ms] pointer-events-none" />
         <div className="absolute bottom-10 right-1/4 w-[400px] h-[400px] bg-[#8dc63f]/10 rounded-full blur-[100px] animate-pulse duration-[6000ms] pointer-events-none" />
 
-        <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-7 space-y-4">
             <span className="font-label-mono text-label-mono text-secondary-fixed mb-2 block tracking-widest font-bold uppercase">
               HEALTHCARE BUSINESS DATA
@@ -141,9 +141,9 @@ export default async function HealthcareDynamicPage({ params }: { params: { slug
         </div>
       </section>
 
-      <main className="py-20 space-y-20">
+      <main className="py-10 md:py-20 space-y-10 md:space-y-20">
         {/* Dynamic Details Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-start">
           <div className="lg:col-span-7 space-y-6">
             <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary" data-aos="fade-up">About Our {title}</h2>
             <p className="text-on-surface-variant leading-relaxed text-base md:text-lg">
@@ -182,8 +182,8 @@ export default async function HealthcareDynamicPage({ params }: { params: { slug
         </section>
 
         {/* Fields Section */}
-        <section className="bg-surface-container-lowest py-20 border-y border-outline-variant/30">
-          <div className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <section className="bg-surface-container-lowest py-10 md:py-20 border-y border-outline-variant/30">
+          <div className="max-w-[1280px] mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
             <div>
               <h2 className="font-display-lg text-3xl md:text-5xl font-black text-primary mb-6" data-aos="fade-up">Who Benefits From This List?</h2>
               <div className="space-y-4">
@@ -212,7 +212,7 @@ export default async function HealthcareDynamicPage({ params }: { params: { slug
 
         {/* Bottom Call to Action */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 pb-8">
-          <div className="bg-[#131b2e] text-white p-10 md:p-14 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden shadow-2xl border border-white/5">
+          <div className="bg-[#131b2e] text-white p-6 md:p-14 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8 relative overflow-hidden shadow-2xl border border-white/5">
             <div className="relative z-10 space-y-2">
               <h3 className="font-display-lg text-2xl md:text-3xl font-extrabold tracking-tight">Get Verified & Customized B2B Email List Now</h3>
               <p className="text-white/70 text-sm mt-2 font-medium">We assemble lists tailored precisely to your specific sales parameters.</p>

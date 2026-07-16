@@ -20,14 +20,14 @@ export default function DataAppendingPage() {
   return (
     <div className="min-h-screen bg-background text-on-surface">
       {/* 1. Enhanced Hero Banner with Grid Overlay and Gradient Glows */}
-      <section className="relative bg-[#0b0f19] text-on-primary pt-48 pb-28 overflow-hidden border-b border-outline-variant/10">
+      <section className="relative bg-[#0b0f19] text-on-primary pt-32 md:pt-48 pb-16 md:pb-28 overflow-hidden border-b border-outline-variant/10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-[#131b2e] via-transparent to-transparent pointer-events-none" />
         
         <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#131b2e] rounded-full blur-[120px] animate-pulse duration-[8000ms] pointer-events-none" />
         <div className="absolute bottom-10 right-1/4 w-[400px] h-[400px] bg-[#8dc63f]/10 rounded-full blur-[100px] animate-pulse duration-[6000ms] pointer-events-none" />
 
-        <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-7 space-y-4">
             <span className="font-label-mono text-label-mono text-secondary-fixed mb-2 block tracking-widest font-bold">B2B DATASETS</span>
             <h1 data-aos="fade-up" className="font-display-lg text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white max-w-4xl tracking-tight">
@@ -83,8 +83,8 @@ export default function DataAppendingPage() {
         </section>
 
         {/* 2. How Do We Append Data? */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-12 border-b border-outline-variant/30">
-          <div className="text-center mb-16 space-y-4" data-aos="fade-up">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-8 md:py-12 border-b border-outline-variant/30">
+          <div className="text-center mb-10 md:mb-16 space-y-4" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">PROCESS</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">
               How Do We <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Append Data?</span>
@@ -125,7 +125,7 @@ export default function DataAppendingPage() {
 
         {/* 4. Popular Append Services with Search and Category Filtering */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30">
-          <div className="text-center mb-16 space-y-3" data-aos="fade-up">
+          <div className="text-center mb-10 md:mb-16 space-y-3" data-aos="fade-up">
             <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">ENHANCEMENTS</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">
               Our Other Popular <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">Append Services</span>
@@ -149,7 +149,7 @@ export default function DataAppendingPage() {
         </section>
 
         {/* 5. Refine & Speciality Visual Dashboards */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30 grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
           <div className="bg-surface-container-lowest p-8 md:p-12 border border-outline-variant/30 rounded-3xl shadow-lg hover:border-[#131b2e] transition-all duration-300" data-aos="fade-up">
             <div className="flex items-center gap-4 mb-8 border-b border-outline-variant/20 pb-6">
               <div className="w-10 h-10 rounded-xl bg-[#131b2e]/10 flex items-center justify-center text-[#131b2e]">
@@ -191,7 +191,7 @@ export default function DataAppendingPage() {
 
         {/* 6. Why Grow Section */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">SCALE & PROSPER</span>
               <h2 className="font-display-lg text-3xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up">
@@ -208,7 +208,7 @@ export default function DataAppendingPage() {
             </div>
             <div className="lg:col-span-5 relative">
               <div className="relative z-10 diffusion-shadow overflow-hidden rounded-3xl">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Grow Business Custom" className="w-full h-auto object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700" />
+                <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Grow Business Custom" className="w-full h-auto object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-700" />
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#131b2e] rounded-full -z-0 blur-xl" />
             </div>

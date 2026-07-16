@@ -120,12 +120,12 @@ export default function TechnologyInstalls() {
     <div className="min-h-screen bg-background text-on-surface flex flex-col font-sans">
       <main className="flex-1">
         {/* 1. Hero Section */}
-        <section className="relative bg-[#0b0f19] text-on-primary pt-48 pb-28 overflow-hidden border-b border-outline-variant/10">
+        <section className="relative bg-[#0b0f19] text-on-primary pt-32 md:pt-48 pb-16 md:pb-28 overflow-hidden border-b border-outline-variant/10">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px]" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-[#131b2e]/20 via-transparent to-transparent pointer-events-none" />
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#131b2e]/10 rounded-full blur-[120px] animate-pulse duration-[8000ms] pointer-events-none" />
 
-          <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          <div className="max-w-[1280px] mx-auto px-5 md:px-10 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
             <div className="lg:col-span-7 space-y-6">
               <span className="font-label-mono text-label-mono text-secondary-fixed mb-2 block tracking-widest font-bold">TECHNOLOGY INSTALLS</span>
               <h1 className="font-display-lg text-4xl md:text-5xl lg:text-6xl text-white mb-6 leading-tight font-extrabold tracking-tight">
@@ -156,7 +156,7 @@ export default function TechnologyInstalls() {
         </section>
 
         {/* 1.5 Introduction Section */}
-        <section className="bg-background py-20 border-b border-outline-variant/30">
+        <section className="bg-background py-10 md:py-20 border-b border-outline-variant/30">
           <div className="max-w-[1000px] mx-auto px-5 md:px-10 text-center space-y-6">
             <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed">
               Are you an IT service provider, software supplier, or software marketer looking for ways to expand your market footprint globally? GilbertData Technology Users List empowers you with an extensive database of IT decision-makers, tech professionals, and businesses that use specific hardware, software, and cloud applications.
@@ -169,10 +169,10 @@ export default function TechnologyInstalls() {
 
         {/* 2. Image and Text Section */}
         <section className="max-w-[1280px] mx-auto px-5 md:px-10 py-24 border-b border-outline-variant/30">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative justify-self-center lg:justify-self-start">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-[#8dc63f] opacity-20 blur-2xl rounded-full"></div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 alt="Technology Installs" 
                 className="w-full max-w-[500px] h-auto object-cover rounded-2xl diffusion-shadow relative z-10"
                 src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
@@ -205,7 +205,7 @@ export default function TechnologyInstalls() {
 
         {/* 3 & 4. Customization and Massive Grid */}
         <section className="bg-surface-container-lowest py-24 border-b border-outline-variant/30">
-          <div className="max-w-[1280px] mx-auto px-5 md:px-10 text-center mb-16">
+          <div className="max-w-[1280px] mx-auto px-5 md:px-10 text-center mb-10 md:mb-16">
             <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest mb-4 block">CATEGORIES</span>
             <h2 className="font-display-lg text-3xl md:text-5xl font-black mb-6" data-aos="fade-up">
               Key Technology Users List From <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">GilbertData</span>
@@ -239,7 +239,7 @@ export default function TechnologyInstalls() {
         {/* 5. FAQ Section */}
         <section className="bg-background py-24 border-b border-outline-variant/30">
           <div className="max-w-[1280px] mx-auto px-5 md:px-10">
-            <div className="text-center mb-16 space-y-3" data-aos="fade-up">
+            <div className="text-center mb-10 md:mb-16 space-y-3" data-aos="fade-up">
               <span className="font-label-mono text-label-mono text-primary font-bold tracking-widest">FAQ</span>
               <h2 className="font-display-lg text-3xl md:text-5xl font-black" data-aos="fade-up">
                 Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-[#8dc63f] pr-1">Questions</span>
