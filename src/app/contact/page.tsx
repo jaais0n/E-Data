@@ -144,22 +144,17 @@ export default function Contact() {
             <h2 className="font-display-lg text-3xl md:text-4xl text-primary uppercase" data-aos="fade-up">OUR SALES TEAM IS READY TO <span className="text-transparent bg-clip-text pr-1 bg-gradient-to-r from-blue-400 to-[#8dc63f]">HELP YOU</span></h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-delay="100">
+          <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-8" data-aos="fade-up" data-aos-delay="100">
             {[
               {
                 i: "location_on",
                 t: "Head office",
-                d: "E Data Grid Solutions Inc.\n848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107"
-              },
-              {
-                i: "corporate_fare",
-                t: "Corporate offices",
-                d: "E-Data Solutions. LLC.\n#347, 5th Ave, New York, NY 10016"
+                d: "E DATA GRID TECHNOLOGIES LLC\n848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107"
               },
               {
                 i: "mail",
                 t: "Contact Details",
-                d: "Phone: +1 212-372-7547\nEmail: info@e-data.com"
+                d: "Phone: +1 212-372-7547\nEmail: info@edatagrid.com"
               }
             ].map(c => (
               <div key={c.t} className="bg-surface-container-lowest p-8 border border-outline-variant/30 rounded-lg diffusion-shadow text-center flex flex-col items-center group hover:scale-[1.02] transition-transform duration-300">

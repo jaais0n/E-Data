@@ -26,14 +26,7 @@ export function SiteFooter() {
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
                 <div>
                   <strong className="block text-on-surface mb-1">Head office:</strong>
-                  <span>E Data Grid Solutions Inc.<br/>848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107</span>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>
-                <div>
-                  <strong className="block text-on-surface mb-1">Corporate offices:</strong>
-                  <span>E-Data Solutions. LLC.<br/>#347, 5th Ave, New York, NY 10016</span>
+                  <span>E DATA GRID TECHNOLOGIES LLC<br/>848 N. Rainbow Blvd, Unit #3119 Las Vegas, NV,89107</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -47,7 +40,7 @@ export function SiteFooter() {
                 <span className="material-symbols-outlined text-primary text-lg mt-0.5">mail</span>
                 <div>
                   <strong className="inline text-on-surface">Email: </strong>
-                  <a href="mailto:info@e-data.com" className="hover:text-primary transition-colors">info@e-data.com</a>
+                  <a href="mailto:info@edatagrid.com" className="hover:text-primary transition-colors">info@edatagrid.com</a>
                 </div>
               </li>
             </ul>
